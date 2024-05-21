@@ -1,0 +1,24 @@
+{
+  "name": "metaplants",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "vercel build",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@web3modal/ethers": "^4.2.1",
+    "ethers": "^6.12.1",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "nodemon": "^3.1.0"
+  }
+}
